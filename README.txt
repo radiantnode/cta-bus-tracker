@@ -1,0 +1,11 @@
+h1. Chicago’s CTA Bus Tracker for iPhone and iPod Touch
+
+Chicago’s CTA currently offers a "bus tracker":http://www.ctabustracker.com/ which is a great addition to their transportation system. There’s only one issue... we iPhone and iPod Touch users don’t have a special version just for us. Here’s where this service comes in.
+
+Point your iPhone or iPod touch to cta.growinglogic.com to use this service.
+
+The service is offered as Open-Source over at Github.
+
+__
+
+This service is not offered or endorsed by the Chicago Transit Authority. The use of this service is at "your own risk." The service is offered "as is" and Growinglogic makes no guarantees concerning the availability or "uptime" of the service.
