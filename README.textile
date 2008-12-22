@@ -7,3 +7,7 @@ Point your iPhone or iPod touch to cta.growinglogic.com to use this service.
 The service is offered as Open-Source over at Github.
 
 _This service is not offered or endorsed by the Chicago Transit Authority. The use of this service is at "your own risk." The service is offered "as is" and Growinglogic makes no guarantees concerning the availability or "uptime" of the service._
+
+h2. Installation
+
+Literally just drop the files on your server running PHP and away you go. No database. You might want to change the Google Maps API key in _app/cta.class.php_ to your own.
