@@ -16,8 +16,8 @@ $routes = CTA::index();
 
 
 <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
-<style type="text/css" media="screen">@import "/app/iui/iui.css";</style>
-<script type="application/x-javascript" src="/app/iui/iui.js"></script>
+<style type="text/css" media="screen">@import "/app/iui/iui.css?<?=filemtime($_SERVER['DOCUMENT_ROOT']."/app/iui/iui.css")?>";</style>
+<script type="application/x-javascript" src="/app/iui/iui.js?<?=filemtime($_SERVER['DOCUMENT_ROOT']."/app/iui/iui.js")?>"></script>
 </head>
 
 <body>
