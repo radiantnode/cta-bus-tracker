@@ -12,7 +12,6 @@ $_ = CTA::get_eta();
 	<h2>Currently</h2>
 	
 	<fieldset>
-	
 		<div class="row">
 			<label><?=str_replace('°', "&deg;", $_['currently'])?></label>
 		</div>
@@ -26,7 +25,6 @@ $_ = CTA::get_eta();
 	<fieldset>
 		
 <?php foreach ($_['etas'] as $item) { ?>
-
 		<div class="row" clickable="yes"><label><?=$item['bus']?> <?=$item['to']?></label> <label style="position:absolute;right:15px;font-weight:normal;"><?=$item['time']?></label></div>
 
 <?php } ?>
